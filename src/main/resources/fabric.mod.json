@@ -3,10 +3,10 @@
   "id": "heartlesspursuit",
   "version": "${version}",
   "name": "Heartless Pursuit",
-  "description": "A QOL mod for hypixel skyblock",
+  "description": "Gain extra hearts for every five XP levels you earn (fully customizable).",
   "authors": [],
   "contact": {},
-  "license": "BSD-3-Clause",
+  "license": "PolyForm Perimeter License 1.0.0",
   "icon": "assets/heartlesspursuit/icon.png",
   "environment": "*",
   "entrypoints": {
