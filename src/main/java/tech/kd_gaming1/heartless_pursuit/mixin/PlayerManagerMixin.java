@@ -14,6 +14,6 @@ import tech.kd_gaming1.heartless_pursuit.event.PlayerJoinCallback;
 public class PlayerManagerMixin {
     @Inject(at = @At(value = "TAIL"), method = "onPlayerConnect")
     private void onPlayerJoin(ClientConnection connection, ServerPlayerEntity player, ConnectedClientData clientData, CallbackInfo ci) {
-        PlayerJoinCallback.EVENT.invoker().joinServer(player, player.getServer());
+        PlayerJoinCallback.EVENT.invoker().joinServer(player, player.getEntityWorld().getServer());
     }
 }

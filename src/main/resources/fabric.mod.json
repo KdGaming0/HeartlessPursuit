@@ -3,26 +3,22 @@
   "id": "heartlesspursuit",
   "version": "${version}",
   "name": "Heartless Pursuit",
-  "description": "A QOL mod for hypixel skyblock",
-  "authors": [],
+  "description": "Gain extra hearts for every five XP levels you earn (fully customizable). Compete with friends to collect the most hearts by grinding—or stealing them by defeating others!",
+  "authors": [
+    "KdGaming0",
+    "AmyMialee"
+  ],
   "contact": {},
   "license": "BSD-3-Clause",
   "icon": "assets/heartless_pursuit/icon.png",
   "environment": "*",
   "entrypoints": {
-    "client": [
-      "tech.kd_gaming1.heartless_pursuit.client.HeartlessPursuitClient"
-    ],
     "main": [
       "tech.kd_gaming1.heartless_pursuit.HeartlessPursuit"
     ]
   },
   "mixins": [
-    "heartless_pursuit.mixins.json",
-    {
-      "config": "heartless_pursuit.client.mixins.json",
-      "environment": "client"
-    }
+    "heartless_pursuit.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=${loader_version}",
