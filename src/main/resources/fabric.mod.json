@@ -5,12 +5,11 @@
   "name": "Heartless Pursuit",
   "description": "Gain extra hearts for every five XP levels you earn (fully customizable). Compete with friends to collect the most hearts by grinding—or stealing them by defeating others!",
   "authors": [
-    "KdGaming0",
-    "AmyMialee"
+    "KdGaming0"
   ],
   "contact": {},
   "license": "BSD-3-Clause",
-  "icon": "assets/heartless_pursuit/icon.png",
+  "icon": "assets/heartlesspursuit/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
