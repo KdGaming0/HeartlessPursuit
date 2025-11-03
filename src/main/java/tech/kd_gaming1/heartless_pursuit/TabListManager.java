@@ -35,8 +35,7 @@ public class TabListManager {
     }
 
     private static void updatePlayerTabInfo(ServerPlayerEntity player) {
-        MinecraftServer server = player.getServer();
-        if (server == null) return;
+        MinecraftServer server = player.getEntityWorld().getServer();
 
         ServerScoreboard scoreboard = server.getScoreboard();
         String playerName = player.getName().getString();
